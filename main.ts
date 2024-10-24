@@ -2,7 +2,7 @@
  *
  * Created by: Caleb Andreas
  * Created on: Oct 2024
- * This program measures distance and turns green of distanceis over 
+ * This program measures distance and turns green of distance is over 
  * 10cm and turns red if under 10cm.
 */
 
