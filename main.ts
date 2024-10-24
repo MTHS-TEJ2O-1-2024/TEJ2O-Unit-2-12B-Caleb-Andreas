@@ -45,4 +45,3 @@ input.onButtonPressed(Button.A, function () {
         neopixelStrip.show()
     }
 })
-
