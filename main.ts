@@ -31,7 +31,8 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.clear()
     neopixelStrip.show()
 
-    // 
+    // Turn neopixels to red if distanceToObject < 10 cm and Green
+    // if distanceToObject > 10cm.
     if (distanceToObject < 10) {
         neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
         neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
